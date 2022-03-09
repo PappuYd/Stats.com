@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Stats.com</title>
+</head>
+<div id="preloader">
+</div>
+
+<body>
+    <div class="body">
+        <div class="logo-div">
+            <span class="logo">stats.com</span>
+            <a href="/HTML/support.html"><button class="button">Support</button></a>
+            <a href="/HTML/source.html"><button class="button">Source</button></a>
+            <a href="/HTML/about.html"><button class="button">About</button></a>
+            <a href="/HTML/menu.html"><button class="button">Menu</button></a>
+            <button class="button" id="searchbutton">Search</button>
+            <a href="/HTML/index.html"><button class="button">Home</button></a>
+            <span>
+                <form>
+                    <input type="search" name="search" id="search" placeholder="Type here to search">
+                </form>
+            </span>
+        </div>
+        <div class="background-text-container">
+            <center>
+                <p>Get to know every statistics of the world</p>
+            </center>
+            <center>
+                <p>At one place</p>
+            </center>
+        </div>
+        <div class="get-started-container">
+            <button class="get-started" onclick="authenticate()">Get Started</button>
+            <div id="popup">
+                <center>
+                    <p id="popup-content">Select a service to authenticate</p>
+                    <button class="popup-button"><img src="/Resources/google.png" class="popup-image" onclick="window.location = '/HTML/population.html'"></button>
+                </center>
+                <p style="opacity: 50%;">*Click on the "Get Started" button again to close</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="content">
+    <div class="content">
+        <h1>We care about your choice</h1>
+        <p class="margin">We provide you the stats the way you like to see it. The services that we provide for yoyr
+            convenience are as follows:-</p>
+        <img src="/Resources/barchart.png" class="image" alt="">
+        <p class="margin">Bar Chart:-</p>
+        <pre class="margin">
+            Bar graphs are the pictorial representation of data (generally grouped),
+in the form of vertical or horizontal rectangular bars, where the length
+of bars are proportional to the measure of data. They are also known as 
+bar charts. Bar graphs are one of the means of data handling in 
+statistics.
+        </pre>
+        <img src="/Resources/piechart.jpg" class="image" alt="">
+        <p class="margin">Pie Chart:-</p>
+        <pre class="margin">
+            A pie chart is a type of graph that represents the data in the circular
+graph. The slices of pie show the relative size of the data, and it is a type of 
+pictorial representation of data. A pie chart requires a list of categorical 
+variables and numerical variables. Here, the term “pie” represents the whole, 
+and the “slices” represent the parts of the whole. 
+        </pre>
+        <img src="/Resources/linechart.png" class="image" alt="">
+        <p class="margin">Line Chart:-</p>
+        <pre class="margin">
+            A line chart is a graphical representation of an asset's historical price 
+action that connects a series of data points with a continuous line. This is the most
+basic type of chart used in finance, and it typically only depicts a security's closing
+prices over time. Line charts can be used for any timeframe, but they most often make
+use of day-to-day price changes.
+        </pre>
+        <img src="/Resources/doughnut.png" class="image" alt="">
+        <p class="margin">Doughnut Chart:-</p>
+        <pre class="margin">
+            A Doughnut Chart is an improved version of Pie Charts to eliminate the 
+trickiness of reading pie charts. These charts are known to express the relationship 
+of ‘part-to-whole’ where all parts represent 100% when collected together.
+It displays survey questions or data with a small number of comparing categories.
+        </pre>
+        <img src="/Resources/areachart.png" class="image" alt="">
+        <p class="margin">Area Chart:-</p>
+        <pre class="margin">
+            An area chart is like a line chart in terms of how data values are plotted
+on the chart and connected using line segments. In an area chart, however, the area
+between the line segments and the x-axis is filled with color.An area chart is a good 
+choice when you want to see volume change over a period of time, without focusing on 
+specific data values. It gives a sense of summation of the quantitative data.
+        </pre>
+        <hr>
+        <h1 id="reveal">Contents</h1>
+        <img src="/Resources/R.png" alt="" class="image">
+        <ul>
+            <li class="margin"><a href="" class="option">Population stats</a></li>
+            <li class="margin"><a href="" class="option">Wealth stats</a></li>
+            <li class="margin"><a href="" class="option">Size stats stats</a></li>
+            <li class="margin"><a href="" class="option">No. of states</a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+    </div>
+    <script src="/JS/index.js"></script>
+</body>
+
+</html>
